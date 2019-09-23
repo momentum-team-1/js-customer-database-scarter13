@@ -62,10 +62,10 @@ var usStates = [
 
 function nameToAbbr (stateName) {
   const idx = usStates.findIndex(function (state) {
-    return state.name == stateName.toUpperCase()
+    return state.name === stateName.toUpperCase()
   })
 
-  if (idx == -1) {
+  if (idx === -1) {
     return null
   }
 

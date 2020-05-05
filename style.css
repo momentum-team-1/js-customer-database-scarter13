@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: green;
+    border-style: solid;
+    
+}
+
+.row {
+    display: flex;
+    width: 400px;
+    height: 100px;
+
+}

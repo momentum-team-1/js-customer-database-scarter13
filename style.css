@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+}
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
